@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libJ2C.so -o libJ2C.so CMakeFiles/J2C.dir/J2C.c.o  -L/home/wwx/jdk1.7/jre/lib/amd64/server 

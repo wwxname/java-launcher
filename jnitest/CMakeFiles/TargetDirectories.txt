@@ -1,0 +1,4 @@
+/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/jnitest/CMakeFiles/rebuild_cache.dir
+/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/jnitest/CMakeFiles/edit_cache.dir
+/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/jnitest/CMakeFiles/C2J.dir
+/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/jnitest/CMakeFiles/J2C.dir

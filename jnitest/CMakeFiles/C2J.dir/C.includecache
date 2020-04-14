@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/jnitest/C2J.c
+jni.h
+-
+stdlib.h
+-
+
+jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+jni_md.h
+
+jni_md.h
+jni_x86.h
+jni_x86.h
+jni_sparc.h
+jni_sparc.h
+jni_zero.h
+jni_zero.h
+jni_arm.h
+jni_arm.h
+jni_ppc.h
+jni_ppc.h
+
+jni_x86.h
+

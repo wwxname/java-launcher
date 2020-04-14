@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Project" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="java">
+         <Option output="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/java" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGAMMA" />
+            <Add option="-DLINK_INTO_LIBJVM" />
+            <Add option="-DFULL_VERSION=&quot;24.95-b00&quot;" />
+            <Add option="-DJDK_MAJOR_VERSION=&quot;&quot;" />
+            <Add option="-DJDK_MINOR_VERSION=&quot;&quot;" />
+            <Add option="-DARCH=&quot;amd64&quot;" />
+            <Add option="-DLAUNCHER_TYPE=&quot;gamma&quot;" />
+            <Add option="-DTARGET_OS_FAMILY_linux" />
+            <Add option="-DTARGET_ARCH_x86" />
+            <Add option="-DTARGET_ARCH_MODEL_x86_64" />
+            <Add option="-DTARGET_OS_ARCH_linux_x86" />
+            <Add option="-DTARGET_OS_ARCH_MODEL_linux_x86_64" />
+            <Add option="-DTARGET_COMPILER_gcc" />
+            <Add option="-DLINUX" />
+            <Add option="-D_GNU_SOURCE" />
+            <Add option="-DAMD64" />
+            <Add option="-DPRODUCT" />
+            <Add directory="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.7" />
+            <Add directory="/usr/include/c++/4.7/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.7/." />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 java" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="java/fast">
+         <Option output="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/java" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGAMMA" />
+            <Add option="-DLINK_INTO_LIBJVM" />
+            <Add option="-DFULL_VERSION=&quot;24.95-b00&quot;" />
+            <Add option="-DJDK_MAJOR_VERSION=&quot;&quot;" />
+            <Add option="-DJDK_MINOR_VERSION=&quot;&quot;" />
+            <Add option="-DARCH=&quot;amd64&quot;" />
+            <Add option="-DLAUNCHER_TYPE=&quot;gamma&quot;" />
+            <Add option="-DTARGET_OS_FAMILY_linux" />
+            <Add option="-DTARGET_ARCH_x86" />
+            <Add option="-DTARGET_ARCH_MODEL_x86_64" />
+            <Add option="-DTARGET_OS_ARCH_linux_x86" />
+            <Add option="-DTARGET_OS_ARCH_MODEL_linux_x86_64" />
+            <Add option="-DTARGET_COMPILER_gcc" />
+            <Add option="-DLINUX" />
+            <Add option="-D_GNU_SOURCE" />
+            <Add option="-DAMD64" />
+            <Add option="-DPRODUCT" />
+            <Add directory="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.7" />
+            <Add directory="/usr/include/c++/4.7/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.7/." />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 java/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/java.c">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/java.h">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/java_md.c">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/java_md.h">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/jli_util.c">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/jli_util.h">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/jni.h">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/wildcard.c">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/wildcard.h">
+         <Option target="java"/>
+      </Unit>
+      <Unit filename="/home/wwx/CLionProjects/hotspot-dev/src/share/tools/launcher/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
